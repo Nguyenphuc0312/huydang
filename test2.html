@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<section class="featured-products">
+    <div class="container">
+        <h2>Sản phẩm nổi bật</h2>
+        <div class="product"></div>       
+            <style>
+             body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                header {
+                    background-color: #000000;
+                    color: #ffffff;
+                    padding: 20px ;
+                    text-align: center;
+                }
+                
+                nav ul {
+                    list-style-type: none;
+                    padding: 0;
+                }
+                
+                nav ul li {
+                    display: inline;
+                    margin-right: 20px;
+                }
+                
+                nav ul li a {
+                    text-decoration: none;
+                    color: #ffffff;
+                }
+                
+                
+                .hero {
+                    background-image: url('hero_bg.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    color: #000000;
+                    text-align: center;
+                    padding: 10px 0;
+                }
+                
+                .hero h2 {
+                    margin-bottom: 20px;
+                }
+                
+                
+                .featured-products {
+                    background-color: #ffffff;
+                    padding: px 0;
+                }
+                
+                .featured-products h2 {
+                    text-align: center;
+                    margin-bottom: 30px;
+                }
+                
+                .product {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                }
+                
+                .product-item {
+                    text-align: center;
+                    width: calc(20.20% - 20px);
+                    margin-bottom: 20px;
+                    padding: 20px;
+                    border: 1px solid #000000;
+                    border-radius: 5px;
+                }
+                
+                .product-item img {
+                    max-width: 100%;
+                    height: auto;
+                }
+                
+                .product-item h3 {
+                    margin-bottom: 10px;
+                }
+                
+                .product-item .price {
+                    font-weight: bold;
+                    color: #333;
+                }
+                
+                .product-item .btn {
+                    background-color: #00ff22;
+                    color: #fff;
+                    border: none;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                }
+                
+                .product-item .btn:hover {
+                    background-color: #00b309;
+                }
+                .buy-button {
+                    background-color: #00ff00; 
+                    
+                    color: white; 
+                    border: none; 
+                    padding: 10px 20px; 
+                    border-radius: 5px; 
+                    cursor: pointer; 
+                }
+                .button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    background-color: #007bff;
+                    color: #fff;
+                    text-decoration: none;
+                    border-radius: 5px;
+                    border: 2px solid #007bff; 
+                    transition: background-color 0.3s ease;
+                  }
+                  </style>        
+            </div>
+            
+                    <div class="product">
+                        <div class="product-item">
+                            <img src="/huydang/ảnh/Luu-y-khi-mac-so-mi-trang-1.jpg" alt="Áo Sơ Mi Trắng">
+                            <h3>Áo sơ mi trắng(nam)</h3>
+                            <p class="price">200,000₫</p>
+                            <a href="" class="btn btn-primary">Mua ngay</a>             
+                        </div>
+                        <div class="product-item">
+                            <img src="/huydang/ảnh/7751e91cd67e3cbd6e3ea30bd1d08c06.jpg" alt="Áo Mikenco">
+                            <h3>Áo Mikenco(nữ)</h3>
+                            <p class="price">150,000₫</p>
+                            <a href="" class="btn btn-primary">Mua ngay</a>
+        
+                        </div>
+                        <div class="product-item">
+                            <img src="/huydang/ảnh/vn-11134207-7qukw-lh75hftkvtv72e.jpg" alt="Áo Polo Xanh Lá">
+                            <h3>Quần bò rách gối</h3>
+                            <p class="price">400,000₫</p>
+                            <a href="" class="btn btn-primary">Mua ngay</a>
+                        </div>
+                        <div class="product-item">
+                            <img src="/huydang/ảnh/ao-polo-nam-chinh-hang-trang.jpg" alt="Váy Đen Dáng Dài">
+                            <h3>Áo polo (nam)</h3>
+                            <p class="price">250,000₫</p>
+                            <a href="" class="btn btn-primary">Mua ngay</a>
+                        </div>
+                        <div class="product-item">
+                            <img src="/huydang/ảnh/dfb6aa171755ca41818eec80a1538bc0.jpg" alt="Áo Thun Trắng Cổ V">
+                            <h3>Quần bò (nữ) </h3>
+                            <p class="price">299,000₫</p>
+                            <a href="" class="btn btn-primary">Mua ngay</a>
+                        </div>
+                        <div class="product-item">
+                            <img src=/huydang/ảnh/quan-golf-nam-xuat-han-NII-7-500x598.jpg" alt="Quần Short Jean Xanh">
+                            <h3>Quần âu(nam)</h3>
+                            <p class="price">199,000₫</p>
+                            <a href="" class="btn btn-primary">Mua ngay</a>
+                    </div>
+                    <div class="product-item">
+                        <img src="/huydang/ảnh/vn-11134207-7r98o-lr1uxjjkf6vt32.jpg" alt="Váy Đen Dáng Dài">
+                        <h3>Áo phông(nữ)</h3>
+                        <p class="price">288,000₫</p>
+                        <a href="" class="btn btn-primary">Mua ngay</a>
+                    </div>
+                    <div class="product-item">
+                        <img src=/huydang/ảnh/BO-ADIDAS-NAM-THU-DONG-CAO-CAP-THOI-TRANG-NAM-ALTHOUGH.jpg" alt="Váy Đen Dáng Dài">
+                        <h3>Bộ adidas kẻ(nam)</h3>
+                        <p class="price">300,000₫</p>
+                        <a href="" class="btn btn-primary">Mua ngay</a>
+                    </div>
+                    
+                    
+                   
+            </section>  
+        </body>
+        </html>
